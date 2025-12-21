@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NoCtrlZDave</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <!-- Loader -->
+    <div class="loader" id="loader">
+        <div class="loader-spinner"></div>
+    </div>
+
+    <!-- Progress Bar -->
+    <div class="progress-bar" id="progressBar"></div>
+
+    <!-- Back to Top -->
+    <div class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <!-- Navbar -->
+    <nav>
+        <div class="logo">CodeWith<span>NoCtrlZDave</span></div>
+        
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#aboutme">About</a></li>
+            <li><a href="#skillset">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="nav-right" id="navRight">
+            <div class="circle"></div>
+            <a href="#contact" class="btn">Let's Talk</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-img animate-slide-left">
+            <img src="picture/WhatsApp Image 2025-09-09 at 13.18.06_fe6c71c2.jpg" alt="Developer Illustration">
+        </div>
+        <div class="hero-text">
+            <h1>NoCtrlZDave.</h1>
+            <p>I'm a Frontend Web Developer<br>
+                I build frontend web designs; making them responsive, and user-friendly.</p>
+            <p><span>Need a responsive web design?</span></p>
+            <div class="buttons">
+                <a href="#contact" class="btn-dark">Contact Me!</a>
+                <a href="#projects" class="btn-green">View Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Follow Me Section -->
+    <main class="skill-and-about-container">
+        <section class="follow">
+            <h3>Follow Me</h3>
+            <div class="social-row">
+                <a class="sbtn animate-pulse" href="https://github.com/NoCtrlZDave" title="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a class="sbtn animate-pulse" href="https://twitter.com/NoCtrlZDave_" title="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                <a class="sbtn animate-pulse" href="mailto:okorochukwuebuka34@gmail.com" title="Email"><i class="fa-regular fa-envelope"></i></a>
+                <a class="sbtn animate-pulse" href="https://wa.me/2349025068558" title="Whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </section>
+
+        <!-- ABOUT + SKILLS -->
+        <section class="two-col">
+            <article id="aboutme" class="about">
+                <h2>About <span class="me">Me</span></h2>
+                <p>I'm a passionate <strong>FRONTEND DEVELOPER</strong> who loves crafting clean, modern and
+                    user-friendly
+                    web-experiences. With a strong foundation in <strong>HTML, CSS, JavaScript</strong> and
+                    <strong>Tailwind</strong>. I specialize in turning ideas into responsive, visually appealing
+                    websites that not
+                    only look great, but also work seamlessly across devices.
+                </p>
+                <p>Beyond coding, I pay close attention to design details, usability and
+                    overall user journey. I enjoy working with tools like figma to translate concepts into engaging interfaces,
+                    combining thoughtful UI/UX principles with efficient development. My goal is simple: <strong>
+                        To create digital experiences that make an impact, solve problems, and leaves users with something
+                        memorable.
+                    </strong>
+                </p>
+                <div class="badges">
+                    <div class="badge">
+                        <div class="icon"><i class="fa-solid fa-cog"></i></div>
+                        <div>
+                            <small>5+ Years</small>
+                            <strong>Experience</strong>
+                        </div>
+                    </div>
+                    <div class="badge">
+                        <div class="icon"><i class="fa-solid fa-briefcase"></i></div>
+                        <div>
+                            <small>50+ projects</small>
+                            <strong>Completed</strong>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <aside id="skillset" class="skills-card">
+                <h3>My Skills</h3>
+                <div class="skill">
+                    <div class="row">
+                        <div class="name">HTML</div>
+                        <div class="pct">95%</div>
+                    </div>
+                    <div class="track">
+                        <div class="bar" id="html-bar"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="row">
+                        <div class="name">CSS</div>
+                        <div class="pct">80%</div>
+                    </div>
+                    <div class="track">
+                        <div class="bar" id="css-bar"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="row">
+                        <div class="name">Javascript</div>
+                        <div class="pct">10%</div>
+                    </div>
+                    <div class="track">
+                        <div class="bar" id="javascript-bar"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="row">
+                        <div class="name">Tailwind</div>
+                        <div class="pct">50%</div>
+                    </div>
+                    <div class="track">
+                        <div class="bar" id="Tailwind-bar"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="row">
+                        <div class="name">Graphic Design</div>
+                        <div class="pct">58%</div>
+                    </div>
+                    <div class="track">
+                        <div class="bar" id="Graphic-design-bar"></div>
+                    </div>
+                </div>
+            </aside>
+        </section>
+    </main>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="section-header">
+            <h2 class="section-title">My Projects</h2>
+            <p class="section-subtitle">A collection of my favorite projects and contributions on GitHub</p>
+        </div>
+
+        <!-- Project Filters -->
+        <div class="project-filters">
+            <button class="filter-btn active" data-filter="all">All Projects</button>
+            <button class="filter-btn" data-filter="featured">Featured</button>
+            <button class="filter-btn" data-filter="web">Web Development</button>
+            <button class="filter-btn" data-filter="design">Design</button>
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="projects-grid" id="projectsGrid">
+            <!-- Projects will be loaded dynamically from GitHub API -->
+            <div class="loading" id="projectsLoading">
+                <div class="loading-spinner"></div>
+                <p>Loading projects from GitHub...</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="section-header">
+            <h1 class="section-title">Get In Touch</h1>
+            <p class="section-subtitle">Have a question, project idea, or just want to connect? I'd love to hear from you.
+                Reach me directly via email and I'll get back to you as soon as possible.</p>
+        </div>
+        <div class="contact-panel">
+            <div>
+                <div class="social-row">
+                    <a class="sbtn animate-float" href="https://github.com/NoCtrlZDave" title="GitHub"><i class="fa-brands fa-github"></i></a>
+                    <a class="sbtn animate-float" style="animation-delay: 0.5s;" href="https://x.com/NoCtrlZDave_" title="Twitter">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a class="sbtn animate-float" style="animation-delay: 1s;" href="mailto:okorochukwuebuka34@gmail.com" title="Email">
+                        <i class="fa-regular fa-envelope"></i>
+                    </a>
+                    <a class="sbtn animate-float" style="animation-delay: 1.5s;" href="https://www.instagram.com/noctrlzdave" title="Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a class="sbtn animate-float" style="animation-delay: 2s;" href="https://tiktok.com/@noctrlzdavedev"
+                        title="Tiktok">
+                        <i class="fa-brands fa-tiktok"></i>
+                    </a>
+                    <a class="sbtn animate-float" style="animation-delay: 2.5s;" href="https://wa.me/2349025068558" title="Whatsapp">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+
+            <form class="contact-form" id="contactForm">
+                <div>
+                    <label for="name">Name</label>
+                    <input id="name" name="name" class="field" type="text" required>
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input id="email" name="email" class="field" type="email" required>
+                </div>
+                <div>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" class="field" required></textarea>
+                </div>
+                <button type="submit" class="send-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-inner">
+            <div>
+                <strong class="footer-strong">CodewithNoCtrlZDave</strong>
+                <small>©CodewithNoCtrlZDave. All rights reserved</small>
+            </div>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms Of service</a>
+                <a href="#">SiteMap</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Loader
+        window.addEventListener('load', function() {
+            const loader = document.getElementById('loader');
+            setTimeout(() => {
+                loader.classList.add('hidden');
+                // Load GitHub projects after page loads
+                loadGitHubProjects();
+            }, 500);
+        });
+
+        // Hamburger Menu
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('navLinks');
+        const navRight = document.getElementById('navRight');
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navLinks.classList.toggle('active');
+            navRight.classList.toggle('active');
+        });
+
+        // Close mobile menu when clicking a link
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                hamburger.classList.remove('active');
+                navLinks.classList.remove('active');
+                navRight.classList.remove('active');
+            });
+        });
+
+        // Progress Bar
+        window.addEventListener('scroll', () => {
+            const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            const scrolled = (winScroll / height) * 100;
+            document.getElementById('progressBar').style.width = scrolled + '%';
+
+            // Back to Top Button
+            const backToTop = document.getElementById('backToTop');
+            if (winScroll > 300) {
+                backToTop.classList.add('active');
+            } else {
+                backToTop.classList.remove('active');
+            }
+        });
+
+        // Back to Top
+        document.getElementById('backToTop').addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+
+        // Form Submission
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const btn = this.querySelector('.send-btn');
+            const originalText = btn.textContent;
+            
+            btn.textContent = 'Sending...';
+            btn.disabled = true;
+            
+            // Simulate form submission
+            setTimeout(() => {
+                btn.textContent = 'Message Sent!';
+                btn.style.background = '#22c55e';
+                
+                setTimeout(() => {
+                    btn.textContent = originalText;
+                    btn.disabled = false;
+                    btn.style.background = '';
+                    this.reset();
+                }, 2000);
+            }, 1500);
+        });
+
+        // Skill Bars Animation on Scroll
+        const observerOptions = {
+            threshold: 0.5
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const skillBars = document.querySelectorAll('.bar');
+                    skillBars.forEach(bar => {
+                        const targetWidth = bar.id === 'html-bar' ? '95%' :
+                                          bar.id === 'css-bar' ? '80%' :
+                                          bar.id === 'javascript-bar' ? '10%' :
+                                          bar.id === 'Tailwind-bar' ? '50%' : '58%';
+                        bar.style.width = targetWidth;
+                    });
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+
+        observer.observe(document.getElementById('skillset'));
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // Add hover effect to all buttons
+        document.querySelectorAll('.btn, .btn-dark, .btn-green, .send-btn').forEach(btn => {
+            btn.addEventListener('mouseenter', () => {
+                btn.style.transform = 'translateY(-3px)';
+            });
+            
+            btn.addEventListener('mouseleave', () => {
+                btn.style.transform = 'translateY(0)';
+            });
+        });
+
+        // Project Filters
+        const filterButtons = document.querySelectorAll('.filter-btn');
+        filterButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                // Remove active class from all buttons
+                filterButtons.forEach(btn => btn.classList.remove('active'));
+                // Add active class to clicked button
+                button.classList.add('active');
+                
+                const filter = button.dataset.filter;
+                filterProjects(filter);
+            });
+        });
+
+        // Function to filter projects
+        function filterProjects(filter) {
+            const projects = document.querySelectorAll('.project-card');
+            
+            projects.forEach(project => {
+                const projectCategory = project.dataset.category;
+                
+                if (filter === 'all' || filter === projectCategory) {
+                    project.style.display = 'block';
+                    setTimeout(() => {
+                        project.style.opacity = '1';
+                        project.style.transform = 'translateY(0)';
+                    }, 100);
+                } else {
+                    project.style.opacity = '0';
+                    project.style.transform = 'translateY(20px)';
+                    setTimeout(() => {
+                        project.style.display = 'none';
+                    }, 300);
+                }
+            });
+        }
+
+        // GitHub API Integration
+        async function loadGitHubProjects() {
+            const username = 'NoCtrlZDave'; // Replace with your GitHub username
+            const projectsGrid = document.getElementById('projectsGrid');
+            const loadingElement = document.getElementById('projectsLoading');
+            
+            // If no username is set, show placeholder projects
+            if (username === 'YOUR_GITHUB_USERNAME') {
+                showPlaceholderProjects();
+                return;
+            }
+
+            try {
+                const response = await fetch(`https://api.github.com/users/${username}/repos?sort=updated&per_page=9`);
+                
+                if (!response.ok) {
+                    throw new Error('Failed to fetch GitHub projects');
+                }
+                
+                const repos = await response.json();
+                
+                // Hide loading spinner
+                loadingElement.style.display = 'none';
+                
+                // Display projects
+                repos.forEach((repo, index) => {
+                    if (!repo.fork) { // Only show non-forked repositories
+                        const projectCard = createProjectCard(repo, index);
+                        projectsGrid.appendChild(projectCard);
+                        
+                        // Add animation delay for staggered appearance
+                        projectCard.style.animationDelay = `${index * 0.1}s`;
+                    }
+                });
+                
+                // If no projects were found, show placeholders
+                if (document.querySelectorAll('.project-card').length === 0) {
+                    showPlaceholderProjects();
+                }
+                
+            } catch (error) {
+                console.error('Error fetching GitHub projects:', error);
+                loadingElement.innerHTML = `
+                    <div style="color: var(--primary-color);">
+                        <i class="fas fa-exclamation-triangle" style="font-size: 2rem; margin-bottom: 1rem;"></i>
+                        <p>Unable to load projects from GitHub</p>
+                        <p style="font-size: 0.9rem; margin-top: 0.5rem;">Showing demo projects instead</p>
+                    </div>
+                `;
+                setTimeout(showPlaceholderProjects, 2000);
+            }
+        }
+
+        // Function to create project card from GitHub repo data
+        function createProjectCard(repo, index) {
+            const card = document.createElement('div');
+            card.className = 'project-card animate-fade-in';
+            card.dataset.category = determineCategory(repo);
+            
+            // Determine image based on repo name or description
+            const projectImage = getProjectImage(repo.name);
+            
+            // Get languages (simplified - in real app, you'd fetch languages from GitHub API)
+            const languages = repo.language ? [repo.language] : ['Code'];
+            
+            card.innerHTML = `
+                <div class="project-image">
+                    <img src="${projectImage}" alt="${repo.name}">
+                </div>
+                <div class="project-content">
+                    <div class="project-title">
+                        <a href="${repo.html_url}" target="_blank">${repo.name}</a>
+                        <a href="${repo.html_url}" target="_blank" class="external-link">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                    <p class="project-description">${repo.description || 'No description available'}</p>
+                    <div class="project-tech">
+                        ${languages.map(lang => `<span class="tech-tag">${lang}</span>`).join('')}
+                    </div>
+                    <div class="project-stats">
+                        <div class="stat">
+                            <i class="fas fa-star"></i>
+                            <span>${repo.stargazers_count}</span>
+                        </div>
+                        <div class="stat">
+                            <i class="fas fa-code-branch"></i>
+                            <span>${repo.forks_count}</span>
+                        </div>
+                        <div class="stat">
+                            <i class="fas fa-circle" style="color: ${getLanguageColor(repo.language)}"></i>
+                            <span>${repo.language || 'Various'}</span>
+                        </div>
+                    </div>
+                    <div class="project-links">
+                        <a href="${repo.html_url}" target="_blank" class="project-link">View Code</a>
+                        ${repo.homepage ? `<a href="${repo.homepage}" target="_blank" class="project-link secondary">Live Demo</a>` : ''}
+                    </div>
+                </div>
+            `;
+            
+            return card;
+        }
+
+        // Function to determine project category
+        function determineCategory(repo) {
+            const name = repo.name.toLowerCase();
+            const description = (repo.description || '').toLowerCase();
+            
+            if (name.includes('web') || name.includes('site') || name.includes('app') || 
+                description.includes('web') || description.includes('frontend') || 
+                description.includes('website')) {
+                return 'web';
+            } else if (name.includes('design') || name.includes('ui') || name.includes('ux') ||
+                      description.includes('design') || description.includes('ui') || 
+                      description.includes('ux')) {
+                return 'design';
+            } else if (repo.stargazers_count > 5 || repo.forks_count > 2) {
+                return 'featured';
+            }
+            
+            return 'web';
+        }
+
+        // Function to get language color
+        function getLanguageColor(language) {
+            const colors = {
+                'JavaScript': '#f1e05a',
+                'HTML': '#e34c26',
+                'CSS': '#563d7c',
+                'Python': '#3572A5',
+                'Java': '#b07219',
+                'TypeScript': '#2b7489',
+                'PHP': '#4F5D95',
+                'C++': '#f34b7d',
+                'C#': '#178600',
+                'Ruby': '#701516'
+            };
+            return colors[language] || '#4ade80';
+        }
+
+        // Function to get project image based on repo name
+        function getProjectImage(repoName) {
+            const images = [
+                'https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
+                'https://images.unsplash.com/photo-1555099962-4199c345e5dd?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
+                'https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
+                'https://images.unsplash.com/photo-1545235617-9465d2a55698?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
+                'https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
+                'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80'
+            ];
+            
+            // Use repo name to get consistent image per project
+            const hash = repoName.split('').reduce((acc, char) => {
+                return char.charCodeAt(0) + ((acc << 5) - acc);
+            }, 0);
+            
+            return images[Math.abs(hash) % images.length];
+        }
+
+        // Function to show placeholder projects (when GitHub API fails or not configured)
+        function showPlaceholderProjects() {
+            const projectsGrid = document.getElementById('projectsGrid');
+            const loadingElement = document.getElementById('projectsLoading');
+            
+            loadingElement.style.display = 'none';
+            
+            const placeholderProjects = [
+                {
+                    name: 'Portfolio Website',
+                    description: 'A responsive portfolio website built with HTML, CSS, and JavaScript',
+                    category: 'web',
+                    stars: 12,
+                    forks: 3,
+                    language: 'HTML/CSS',
+                    demoUrl: '#',
+                    repoUrl: '#'
+                },
+                {
+                    name: 'E-commerce Dashboard',
+                    description: 'Modern dashboard for e-commerce analytics with interactive charts',
+                    category: 'web',
+                    stars: 25,
+                    forks: 8,
+                    language: 'JavaScript',
+                    demoUrl: '#',
+                    repoUrl: '#'
+                },
+                {
+                    name: 'UI Design System',
+                    description: 'Custom design system with reusable components and styling guides',
+                    category: 'design',
+                    stars: 42,
+                    forks: 15,
+                    language: 'CSS',
+                    demoUrl: '#',
+                    repoUrl: '#'
+                },
+                {
+                    name: 'Weather App',
+                    description: 'Real-time weather application with location-based forecasts',
+                    category: 'web',
+                    stars: 18,
+                    forks: 5,
+                    language: 'JavaScript',
+                    demoUrl: '#',
+                    repoUrl: '#'
+                },
+                {
+                    name: 'Task Management App',
+                    description: 'Productivity app for managing daily tasks with drag & drop functionality',
+                    category: 'web',
+                    stars: 31,
+                    forks: 12,
+                    language: 'JavaScript',
+                    demoUrl: '#',
+                    repoUrl: '#'
+                },
+                {
+                    name: 'Brand Identity Kit',
+                    description: 'Complete brand identity design including logo, colors, and typography',
+                    category: 'design',
+                    stars: 8,
+                    forks: 2,
+                    language: 'Design',
+                    demoUrl: '#',
+                    repoUrl: '#'
+                }
+            ];
+            
+            placeholderProjects.forEach((project, index) => {
+                const card = document.createElement('div');
+                card.className = 'project-card animate-fade-in';
+                card.dataset.category = project.category;
+                card.style.animationDelay = `${index * 0.1}s`;
+                
+                card.innerHTML = `
+                    <div class="project-image">
+                        <img src="${getProjectImage(project.name)}" alt="${project.name}">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-title">
+                            <a href="${project.repoUrl}" target="_blank">${project.name}</a>
+                            <a href="${project.repoUrl}" target="_blank" class="external-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                        <p class="project-description">${project.description}</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">${project.language}</span>
+                        </div>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <i class="fas fa-star"></i>
+                                <span>${project.stars}</span>
+                            </div>
+                            <div class="stat">
+                                <i class="fas fa-code-branch"></i>
+                                <span>${project.forks}</span>
+                            </div>
+                            <div class="stat">
+                                <i class="fas fa-circle" style="color: ${getLanguageColor(project.language)}"></i>
+                                <span>${project.language}</span>
+                            </div>
+                        </div>
+                        <div class="project-links">
+                            <a href="${project.repoUrl}" target="_blank" class="project-link">View Code</a>
+                            ${project.demoUrl ? `<a href="${project.demoUrl}" target="_blank" class="project-link secondary">Live Demo</a>` : ''}
+                        </div>
+                    </div>
+                `;
+                
+                projectsGrid.appendChild(card);
+            });
+        }
+    </script>
+</body>
+
+</html>
